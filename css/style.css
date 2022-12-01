@@ -36,6 +36,40 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+/* $duration: ;
+$text-color: rgba(255, 255, 255, 0.3);
+$bgr-color: #333; */
+
+.shine {
+  /* font-size: 70px; */
+        color: #ffffff;
+	text-align: center;
+        
+        /* animation-delay: 2s; */
+        text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,
+  0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        
+}
+.glow-shadow {
+  /* text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,
+  0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6; */
+  -webkit-animation: glow 1s ease-in alternate;
+        -moz-animation: glow 1s ease-in alternate;
+        animation: glow 1s ease-in alternate;
+        animation-delay: 1s;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 
+                 0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+  }
+  to {
+    text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,
+                 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
 *,
 *::before,
 *::after {

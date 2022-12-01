@@ -17,6 +17,20 @@
         toggleNavbarMethod();
         $(window).resize(toggleNavbarMethod);
     });
+
+    $(document).ready(function () {
+        window.addEventListener(('load'), () => {
+            if (document.querySelector('#glow') !== null) {
+              window.sessionStorage.setItem('Heading', 'displayed');
+            }
+          })
+        if (window.sessionStorage.getItem('Heading')) {
+            document.querySelector('#glow').classList.remove('glow-shadow')
+          }
+        setTimeout( function(){
+            $('#glow').css("text-shadow", "0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6; !important");
+        },1000);
+    });
     
     
     // Back to top button
