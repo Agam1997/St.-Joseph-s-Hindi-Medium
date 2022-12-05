@@ -39,7 +39,36 @@
 /* $duration: ;
 $text-color: rgba(255, 255, 255, 0.3);
 $bgr-color: #333; */
-
+#box {
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes example{
+  0%{
+    background-image: url(../img/IMG_20221123_084120.jpg);
+    opacity: 0.5;
+  }
+  25%{
+    background-image: url(../img/IMG_20221123_084120new.jpg);
+  }
+  50%{
+    background-image: url(../img/IMG_20221123_084120.jpg);
+    opacity: 0.5;
+  }
+  75%{
+    background-image: url(../img/IMG_20220628_120916.jpg);
+    opacity: 0.5;
+  }
+  100%{
+    background-image: url(../img/IMG_20220628_121847.jpg);
+  }
+}
+.shadow {
+  background: rgb(4,0,75);
+background: linear-gradient(90deg, rgba(4,0,75,1) 0%, rgba(144,33,132,1) 33%, rgba(4,0,75,1) 100%);
+padding: 0 !important;
+}
 .shine {
   /* font-size: 70px; */
         color: #ffffff;
