@@ -1,119 +1,403 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
+    <style type="text/css">
+      @font-face {
+        font-family: KrutiDev;
+        src: url(fonts/Krutidev/k010.TTF);
+      }
+      /*Download Zip file for KrutiDev woff font from internet, Unzip it, Paste 
+          the folder in your website folder. I have taken k010*/
+    </style>
     <title>सेंट जोसेफ हिंदी मीडियम स्कूल</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free HTML Templates" name="keywords" />
+    <meta content="Free HTML Templates" name="description" />
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/favicon.ico" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Flaticon Font -->
-    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <!-- Navbar Start -->
     <div class="container-fluid bg-light position-relative shadow">
-        <div class="text-center" style="padding-top: 2vw;">
-            <a href="index.html" class="navbar-brand font-weight-bold text-secondary" style="font-size: 50px;">
-                <!-- <img class="flaticon-043-teddy-bear"></i> -->
-                <img class="img-fluid" style="height: 8vw;" src="img/logo.png" alt="">
-                <span class="ml-4 shine glow-shadow" style="color: #330000;" id="glow"> सेंट जोसेफ कॉन्वेंट हिंदी माध्यम उच्च माध्यमिक विद्यालय </span>
-            </a>
-        </div>
-        
-        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-0">
-            
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse" style="background-color: beige;  height: 3.5vw;">
-                <div class="navbar-nav font-weight-bold mx-auto py-0" style="font-size: 1.2rem; justify-content: space-between; width: 80%;">
-                    
-                    <a href="index.html" class="nav-item nav-link active">होम</a>
-                    <a href="about.html" class="nav-item nav-link">हमारे बारे में</a>
-                    <a href="class.html" class="nav-item nav-link">कक्षाएं</a>
-                    <a href="team.html" class="nav-item nav-link">हमारे अध्यापक</a>
-                    <a href="gallery.html" class="nav-item nav-link">गेलरी</a>
-                    <!-- <div class="nav-item dropdown">
+      <div class="text-center" style="padding-top: 2vw">
+        <a
+          href="index.html"
+          class="navbar-brand font-weight-bold text-secondary"
+          style="font-size: 50px"
+        >
+          <!-- <img class="flaticon-043-teddy-bear"></i> -->
+          <img
+            class="img-fluid"
+            style="height: 8vw"
+            src="img/logo.png"
+            alt=""
+          />
+          <span class="ml-4 shine glow-shadow" style="color: #330000" id="glow">
+            सेंट जोसेफ कॉन्वेंट हिंदी माध्यम उच्च माध्यमिक विद्यालय
+          </span>
+        </a>
+      </div>
+
+      <nav
+        class="navbar navbar-expand-lg navbar-light py-3 py-lg-0 px-0 px-lg-0"
+      >
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarCollapse"
+          style="background-color: beige; height: 3.5vw"
+        >
+          <div
+            class="navbar-nav font-weight-bold mx-auto py-0"
+            style="
+              font-size: 1.2rem;
+              justify-content: space-between;
+              width: 80%;
+            "
+          >
+            <a href="index.html" class="nav-item nav-link">होम</a>
+            <a href="about.html" class="nav-item nav-link active">हमारे बारे में</a>
+            <!-- <a href="class.html" class="nav-item nav-link">कक्षाएं</a> -->
+            <a href="team.html" class="nav-item nav-link">हमारे अध्यापक</a>
+            <a href="gallery.html" class="nav-item nav-link">गेलरी</a>
+            <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu rounded-0 m-0">
                             <a href="blog.html" class="dropdown-item">Blog Grid</a>
                             <a href="single.html" class="dropdown-item">Blog Detail</a>
                         </div>
                     </div> -->
-                    <a href="contact.html" class="nav-item nav-link">संपर्क करें</a>
-                </div>
-                <!-- <a href="" class="btn btn-primary px-4">Join Class</a> -->
-            </div>
-        </nav>
+            <a href="contact.html" class="nav-item nav-link">संपर्क करें</a>
+          </div>
+          <!-- <a href="" class="btn btn-primary px-4">Join Class</a> -->
+        </div>
+      </nav>
     </div>
     <!-- Navbar End -->
 
-
     <!-- Header Start -->
-    <div class="container-fluid bg-primary mb-5">
-        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-            <h3 class="display-3 font-weight-bold text-white">हमारे बारे में</h3>
-            <div class="d-inline-flex text-white">
-                <p class="m-0"><a class="text-white" href="">होम</a></p>
-                <p class="m-0 px-2">/</p>
-                <p class="m-0">हमारे बारे में</p>
-            </div>
+    <div
+      class="container-fluid bg-primary mb-5"
+      style="
+        background: rgb(4, 0, 75);
+        background: radial-gradient(
+          circle,
+          rgba(4, 0, 75, 1) 0%,
+          rgba(144, 33, 132, 1) 51%,
+          rgba(4, 0, 75, 1) 100%
+        );
+      "
+    >
+      <div
+        class="d-flex flex-column align-items-center justify-content-center"
+        style="min-height: 400px"
+      >
+        <h3 class="display-3 font-weight-bold text-white">हमारे बारे में</h3>
+        <div class="d-inline-flex text-white">
+          <p class="m-0"><a class="text-white" href="">होम</a></p>
+          <p class="m-0 px-2">/</p>
+          <p class="m-0">हमारे बारे में</p>
         </div>
+      </div>
     </div>
     <!-- Header End -->
 
-
     <!-- About Start -->
     <div class="container-fluid py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <img class="img-fluid rounded mb-5 mb-lg-0" src="img/FR.MEDAILLE.jpg" alt="">
-                </div>
-                <div class="col-lg-7">
-                    <p class="section-title pr-5"><span class="pr-2">हमारे बारे में जानें</span></p>
-                    <h1 class="mb-4">आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल</h1>
-                    <p>आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल. आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल, आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल,
-                        आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल. आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल. आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल</p>
-                    <div class="row pt-2 pb-4">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5">
+            <img
+              class="img-fluid rounded mb-5 mb-lg-0"
+              src="img/FR.MEDAILLE.jpg"
+              alt=""
+            />
+            <img
+              class="img-fluid rounded mb-5 mb-lg-0 mt-5"
+              style="width: 77.5%; height: 28vw"
+              src="img/IMG_20220713_093420.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-7">
+            <!-- <p class="section-title pr-5" style="font-family: KrutiDev; font-size: larger;"><span class="pr-2" >izpk;Z dh dye ls –</span></p> -->
+            <h1 class="mb-4" style="font-size: xx-large">St. joseph</h1>
+            <p style="font-family: KrutiDev; font-size: larger">
+              Ikfo= xzaFk ckbZfcy ds vuqlkj lar tkslQ] vR;f/kd U;k;fiz; O;fDr
+              FksA lHkh lrxq.k muesa izpqj ek=k esa Fks blfy;s bZ’oj us lar
+              tkslQ dks bZ’kq vkSj efj;e dhs j{kk dk nkf;Ro lkSik Fkk A <br />
+              lar tkslQ laLFkk ds laj{k.k] ,d /kehZ ;qod FksA og ijes’oj ls
+              vR;f?kd isze j[kus okys vkKkdkjh ,oa vius lEiq.kZ drZO;ks ,oa
+              nkf;Roks dks iw.kZ fu’Bk ds lkFk fuoZgu djuas okys ,d lar iq:’k
+              FksA blfy, mUgs izHkwoj ;h’kw dk firk cuus dk lEeku ikzIr gqvkA
+              lar tkslsQ fo|kky; es i<+us okyh leLr Nk=kvksa ls Hkh ;gh vis{kk
+              dh tkrh gS fd os Hkh vkKkdkjh rFkk vius dRkZO;ks ,oa nkf;Roksa dk
+              iw.kZ fu’Bk ds lkFk fuokZgu djus okyh cusaA
+            </p>
+            <h1 class="mb-4" style="font-size: xx-large">
+              Jean pierre Medaille
+            </h1>
+            <p style="font-family: KrutiDev; font-size: larger">
+              lsaV tkslQ laLFkk ds LakLFkkid Qknj thu ih;j esMk,y dk tUe 6
+              October, 1610 esa gqvkA 1637 esa mudk iksjksfgrkbZ laLdkj gqvk rc
+              mUgksu ns[kk fd dqN efgyk,a ifo= Hkkouk ls Hkjh gqbZ lsok djrh gSA
+              rc mUgksus mu efgykvks dks ,df=r fd;k rFkk 1644 esa fo’ki gsujh ds
+              eksik dks bldh tkudkjh nhA 15 October 1850 esa fojki us flLVj vkWQ
+              lsaV tkslQ dh LFkiuk dhA <br />lasV tkslQ dks Qzkal ds ,d xkao
+              ’kkecsjh Hkstk x;kA ;g bykdk xjhch vkSj Hkq[kejh ls ijs’kku FkkA
+              Qkal es gks jgh yM+kbZ ds dkj.k lSfudks dh nqnZ’kk vLguh; FkhA
+              mudh ns[kHkky djus okyk dksbZ ugh FkkA ml le; leLr flLVlZ us fnu
+              jkr yksxks dh ns[kHkky dhA lu~ 1800 esa Qknj esMk,y ua ,d
+              Hkfo’;ok.kh dh FkhA fd vki tks FkksMs gS] ,d e/kqeD[kh ds >q.M ds
+              leku iwjs fo’o es QSy tk;saxs rFkk vufxur lsok ds dk;ksZ ls
+              txexkrs jgsxsA vki lnk viuh lknxh rFkk lnxq.kkas tSls& n;k] izse]
+              d:.kk ds dkj.k viuh igpkku lalkj es dk;e j[ksaxhA<br />gekjh “kyk
+              ds izfrd fpUg ¼eksuks½ ij vfHkfy[kr ’kCn ^^lnxq.k gh euq’; dks
+              egku cukrk gSA** bl mfDr dk mn~ns’; gS lsaV tkslsQ dh Nk=kvksa dk
+              thoui;ZUr lnxq.kks dks viukrs gq, vius thou dks Js’B cukuk gSA
+              mudk ije drZO; gSa fd izR;sd ifjfLFkfr es n;kyq fouez]
+              vfHkoknu’khy] lg;ksx] izlUuphRRk] ifjJeh] lfg’.kq vkSj mRlkgh jgsA
+              ;fg xq.k mUgs nqljks dh vis{kk egku cukrs gSSA<br />vaxszth ds S
+              rFkk J o.kZ lar tkslQ ds fy, iz;qDr gSaA lar tkslQ dk tUe fo’okl
+              vkKkdkfjrk] leiZ.k] lkgl] fouez lsokHkko ds fy;s lefiZr Fkk vr%
+              lsaV tkslsQ dh izR;sd Nk=k dks bUgh xq.kks dk vuqlj.k djrs gq,
+              ges’kk ’kkfUr vkSj uezrk iwoZd lsokFkZ rRij jguk gSA<br />izrhd
+              fpUg es vafdr fyyh iq’Ik lar tkslQ dh ’kq)rk dk izrhd gSaA fyyh
+              iq’Ik dh dkseyrk lar tkslQ ds fopkjksa vkSj deksZ dh ’kq)rk dks
+              iznf’kZr djrk gSA lsaV tkslQ dh izR;sd Nk=k dks eulk] okpk deZ.kk
+              vFkkZr~ eu ls ck.kh ls deZ ls ’kq) jguk pkfg,A
+            </p>
+            <!-- <div class="row pt-2 pb-4">
                         <div class="col-6 col-md-4">
                             <img class="img-fluid rounded" src="img/IMG_20220628_120916.jpg" style="height: 8vw;" alt="">
                         </div>
                         <div class="col-6 col-md-8">
                             <ul class="list-inline m-0">
-                                <li class="py-2 border-top border-bottom"><i class="fa fa-check text-primary mr-3"></i>आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल</li>
-                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल</li>
-                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल</li>
+                                <li class="py-2 border-top border-bottom" style="font-family: KrutiDev;"><i class="fa fa-check text-primary mr-3"></i>1-ge vius dk;Z }kjk ;g Hkh lqfuf’pr djrs gSa fd vki dk cPpk Hkfo’; dh pqukSfr;ks dk eqdkcyk djus dk Hkh Kku izkIr djsaA</li>
+                                    <li class="py-2 border-bottom" style="font-family: KrutiDev;"><i class="fa fa-check text-primary mr-3"></i>foxr 77 o’ksZ ls lsaV tkslQ fgUnh ek/;e fo|ky; ’kgj esa f’k{kk ds {ks= es viuh loZJs’B lsaok,s lefiZr dj jgk gSaA</li>
+                                    <li class="py-2 border-bottom" style="font-family: KrutiDev;"><i class="fa fa-check text-primary mr-3"></i>fcykliqj ’kgj dh leLr f’k{k.k laLFkkvksa esa lsaV tkslQ fo|ky; dh viuh vyx igpku gSaA</li>
                             </ul>
                         </div>
-                    </div>
-                    <!-- <a href="" class="btn btn-primary mt-2 py-2 px-4">Learn More</a> -->
-                </div>
-            </div>
+                    </div> -->
+            <!-- <a href="" class="btn btn-primary mt-2 py-2 px-4">Learn More</a> -->
+          </div>
         </div>
+      </div>
     </div>
     <!-- About End -->
-
+    <div class="container-fluid pt-5">
+      <!-- <p class="text-black mb-4 mt-5">teachers ka section :)</p> -->
+      <div class="container">
+        <div class="text-center pb-2">
+          <!-- <p class="section-title px-5"><span class="px-2">हमारे अध्यापक</span></p> -->
+          <h1 class="mb-4" style="font-family: KrutiDev; font-size: xx-large">
+            fo|ky; ds ckjs esa
+          </h1>
+        </div>
+        <div class="text-center pb-2">
+          <!-- <p class="section-title px-5"><span class="px-2">हमारे अध्यापक</span></p> -->
+          <!-- <img
+            class="img-fluid w-100"
+            style="height: 35vw"
+            src="img/Staff.png"
+            alt=""
+          /> -->
+        </div>
+        <div class="text-center pb-2">
+          <!-- <p class="section-title px-5"><span class="px-2">हमारे अध्यापक</span></p> -->
+          <!-- <h3 class="mb-4" style="font-family: KrutiDev; font-size: larger;">fiz; vfHkHkkod ,d ikyd ds :Ik esa vki vius cPps dk lokZafx.k fodkl pkgrsa gSaA vkSj ge Hkh bl mn~ns’; dks iq.kZ djus esa vkids lkFk dk;Z djus gsrq xoZ eglwl djrs gSaA </h3> -->
+        </div>
+        <ul class="list-inline m-0">
+          <li
+            class="py-2 border-top border-bottom"
+            style="font-family: KrutiDev; font-size: larger"
+          >
+            <i class="fa fa-check text-primary mr-3"></i>lsaV tkslQ dU;k m-ek-
+            fo|ky; lu~ 1945 esa LFkkfir fd;k x;kA
+          </li>
+          <li
+            class="py-2 border-bottom"
+            style="font-family: KrutiDev; font-size: larger"
+          >
+            <i class="fa fa-check text-primary mr-3"></i>izkjaHk esa d{kk ulZjh
+            ls ysdj VII ¼lkroha½ rd dh d{kk;sa Fkh /khjs /khjs laLFkk mUufr ds
+            lkSikuksa ij p<+rs pyh xbZA
+          </li>
+          <li
+            class="py-2 border-bottom"
+            style="font-family: KrutiDev; font-size: larger"
+          >
+            <i class="fa fa-check text-primary mr-3"></i>izkjaHk es ;g fo|ky;
+            lu~ 1945 ls ysdj 1954 rd vaxsth ek/;e Fkk ijarq ikydks ds vuqjks/k
+            ,oa detksj oxksaZ dks Åpk mBkus ds mn~ns’; ls vaxsth ek/;e dks fgUnh
+            ek/;e esa cnyk x;kA
+          </li>
+          <li
+            class="py-2 border-bottom"
+            style="font-family: KrutiDev; font-size: larger"
+          >
+            <i class="fa fa-check text-primary mr-3"></i>orZeku le; esa ulZjh ls
+            ysdj 12 oha rd ds djhc 600 fo|kFkhZ fgUnh ek/;e es i<+dj f’k{kk dk
+            ykHk ys jgsa gSaA
+          </li>
+          <li
+            class="py-2 border-bottom"
+            style="font-family: KrutiDev; font-size: larger"
+          >
+            <i class="fa fa-check text-primary mr-3"></i>foxr 77 o’ksZ ls lsaV
+            tkslQ fgUnh ek/;e fo|ky; ’kgj esa f’k{kk ds {ks= es viuh loZJs’B
+            lsaok,s lefiZr dj jgk gSaA
+          </li>
+          <li
+            class="py-2 border-bottom"
+            style="font-family: KrutiDev; font-size: larger"
+          >
+            <i class="fa fa-check text-primary mr-3"></i>fcykliqj ’kgj dh leLr
+            f’k{k.k laLFkkvksa esa lsaV tkslQ fo|ky; dh viuh vyx igpku gSaA
+          </li>
+          <li
+            class="py-2 border-bottom"
+            style="font-family: KrutiDev; font-size: larger"
+          >
+            <i class="fa fa-check text-primary mr-3"></i>fo|ky; esa dyk] foKku
+            ,oa okf.kT; ladk; gSa loZ lwqfo/kk ;qDr d{kk,a rFkk jlk;u
+            iz;ksx’kkyk] HkkSfrd iz;ksx’kkyk] tho foKku iz;ksx’kkyk,sa rFkk
+            dEI;qVj d{k rFkk ,d iqLrdky; Hkh gSaA
+          </li>
+          <li
+            class="py-2 border-bottom"
+            style="font-family: KrutiDev; font-size: larger"
+          >
+            <i class="fa fa-check text-primary mr-3"></i>lEiq.kZ d{kk,sa ,oa
+            lsaV tkslQ ifjlj c.c. dSejs dh fuxjkuh es gSaaA
+          </li>
+          <li
+            class="py-2 border-bottom"
+            style="font-family: KrutiDev; font-size: larger"
+          >
+            <i class="fa fa-check text-primary mr-3"></i>ljdkj }kjk pykbZ tkus
+            okyh lEiq.kZ ;kstuk,sa ljLofr lkbZfdy iznk; ;kstuk] d{kk 1 ls 8 rd
+            ds fo|kfFkZ;ksa ds fy, e/;ku Hkkstu] 1 ls 10 rd ds fo|kfFkZ;ksa ds
+            fy;s iqLrd forj.k ;kstuk rFkk LdkWyjf’ki vuqlwfpr tkfr] vuqlwfpr tu
+            tkfr] fiNM+k oxZ ds fy, Hkh fo|ky; esa lqfo/kk,a nh tkrh gSaA
+          </li>
+          <li
+            class="py-2 border-bottom"
+            style="font-family: KrutiDev; font-size: larger"
+          >
+            <i class="fa fa-check text-primary mr-3"></i>1fo|ky; esa N. S. S. ,,oa Guide, jsMdzkl pyk,a tkrs gSaA fo|ky; dks jk’Vªifr] jkT;iky] iqjLdkj izkIr gSa] fdzMk izfr;ksfxrk esa Nk=k,a esa viuh fot; dk ijpe ygjk pqdh gSaA
+          </li>
+          <li
+            class="py-2 border-bottom"
+            style="font-family: KrutiDev; font-size: larger"
+          >
+            <i class="fa fa-check text-primary mr-3"></i>Nk=kvksa ds lokkZaxh.k fodkl ds fy;sa fo|ky; esa dbZ xfrfof/k;k pyk;h tkrh gSa] tSls os’kHkw’kk izfr;ksfxrk] u`R;] rkRdkfyd Hkk’k.k] okn&fookn] jaxksyh] gLrdyk vkfnA
+          </li>
+        </ul>
+        
+        <!-- <a href="/about.html" class="btn btn-primary py-2 px-4">और अधिक जानें</a> -->
+        <!-- <div class="row">
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/team-1.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>Julia Smith</h4>
+                    <i>Music Teacher</i>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/team-2.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>Jhon Doe</h4>
+                    <i>Language Teacher</i>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/team-3.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>Mollie Ross</h4>
+                    <i>Dance Teacher</i>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/team-4.jpg" alt="" >
+                        <div
+                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
+                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <h4>Donald John</h4>
+                    <i>Art Teacher</i>
+                </div>
+            </div> -->
+      </div>
+    </div>
+    <!-- Team End -->
 
     <!-- Facilities Start -->
     <!-- <div class="container-fluid pt-5">
@@ -179,99 +463,126 @@
     <!-- Facilities Start -->
 
     <!-- Class Start -->
-    <div class="container-fluid pt-5">
-        <p class="text-black mb-4 mt-5">Some features about the school will come here. ye srf static content hai</p>
-        <div class="container">
-            <div class="text-center pb-2">
-                <p class="section-title px-5"><span class="px-2">कक्षाओं</span></p>
-                <h1 class="mb-4">आपके बच्चे के स्कूल की विशेषताएं</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 mb-2">
-                    <div class="card border-0 bg-light shadow-sm pb-2">
-                        <img class="card-img-top mb-2" src="img/class-1.jpg" alt="">
-                        <div class="card-body text-center">
-                            <h4 class="card-title">कक्षा 1-10</h4>
-                            <p class="card-text">कक्षा 1-10, आपके बच्चों के लिए कक्षाएं, आपके बच्चों के लिए कक्षाएं</p>
-                        </div>
-                        <div class="card-footer bg-transparent py-4 px-5">
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right"><strong>बच्चों की उम्र</strong></div>
-                                <div class="col-6 py-1">5 - 16 साल</div>
-                            </div>
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right"><strong>कुल सीटें</strong></div>
-                                <div class="col-6 py-1">40 सीटों</div>
-                            </div>
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right"><strong>कक्षा का समय</strong></div>
-                                <div class="col-6 py-1">08:00 - 10:00</div>
-                            </div>
-                            <!-- <div class="row">
+    <!-- <div class="container-fluid pt-5">
+      <p class="text-black mb-4 mt-5">
+        Some features about the school will come here. ye srf static content hai
+      </p>
+      <div class="container">
+        <div class="text-center pb-2">
+          <p class="section-title px-5"><span class="px-2">कक्षाओं</span></p>
+          <h1 class="mb-4">आपके बच्चे के स्कूल की विशेषताएं</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mb-2">
+            <div class="card border-0 bg-light shadow-sm pb-2">
+              <img class="card-img-top mb-2" src="img/class-1.jpg" alt="" />
+              <div class="card-body text-center">
+                <h4 class="card-title">कक्षा 1-10</h4>
+                <p class="card-text">
+                  कक्षा 1-10, आपके बच्चों के लिए कक्षाएं, आपके बच्चों के लिए
+                  कक्षाएं
+                </p>
+              </div>
+              <div class="card-footer bg-transparent py-4 px-5">
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>बच्चों की उम्र</strong>
+                  </div>
+                  <div class="col-6 py-1">5 - 16 साल</div>
+                </div>
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>कुल सीटें</strong>
+                  </div>
+                  <div class="col-6 py-1">40 सीटों</div>
+                </div>
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>कक्षा का समय</strong>
+                  </div>
+                  <div class="col-6 py-1">08:00 - 10:00</div>
+                </div> -->
+                <!-- <div class="row">
                                 <div class="col-6 py-1 text-right border-right"><strong>Tution Fee</strong></div>
                                 <div class="col-6 py-1">$290 / Month</div>
                             </div> -->
-                        </div>
-                        <!-- <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a> -->
-                    </div>
+              <!-- </div> -->
+              <!-- <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a> -->
+            <!-- </div>
+          </div>
+          <div class="col-lg-4 mb-2">
+            <div class="card border-0 bg-light shadow-sm pb-2">
+              <img class="card-img-top mb-2" src="img/class-2.jpg" alt="" />
+              <div class="card-body text-center">
+                <h4 class="card-title">कक्षा 10-12</h4>
+                <p class="card-text">
+                  आपके बच्चों के लिए कक्षाएं, आपके बच्चों के लिए कक्षाएं
+                </p>
+              </div>
+              <div class="card-footer bg-transparent py-4 px-5">
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Age of Kids</strong>
+                  </div>
+                  <div class="col-6 py-1">16 - 18 साल</div>
                 </div>
-                <div class="col-lg-4 mb-2">
-                    <div class="card border-0 bg-light shadow-sm pb-2">
-                        <img class="card-img-top mb-2" src="img/class-2.jpg" alt="">
-                        <div class="card-body text-center">
-                            <h4 class="card-title">कक्षा 10-12</h4>
-                            <p class="card-text">आपके बच्चों के लिए कक्षाएं, आपके बच्चों के लिए कक्षाएं</p>
-                        </div>
-                        <div class="card-footer bg-transparent py-4 px-5">
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right"><strong>Age of Kids</strong></div>
-                                <div class="col-6 py-1">16 - 18 साल</div>
-                            </div>
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right"><strong>Total Seats</strong></div>
-                                <div class="col-6 py-1">40 सीटों</div>
-                            </div>
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right"><strong>Class Time</strong></div>
-                                <div class="col-6 py-1">08:00 - 10:00</div>
-                            </div>
-                            <!-- <div class="row">
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Total Seats</strong>
+                  </div>
+                  <div class="col-6 py-1">40 सीटों</div>
+                </div>
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Class Time</strong>
+                  </div>
+                  <div class="col-6 py-1">08:00 - 10:00</div>
+                </div> -->
+                <!-- <div class="row">
                                 <div class="col-6 py-1 text-right border-right"><strong>Tution Fee</strong></div>
                                 <div class="col-6 py-1">$290 / Month</div>
                             </div> -->
-                        </div>
-                        <!-- <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a> -->
-                    </div>
+              <!-- </div> -->
+              <!-- <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a> -->
+            <!-- </div> -->
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 mb-2">
+            <div class="card border-0 bg-light shadow-sm pb-2">
+              <img class="card-img-top mb-2" src="img/class-2.jpg" alt="" />
+              <div class="card-body text-center">
+                <h4 class="card-title">कक्षा 10-12</h4>
+                <p class="card-text">
+                  आपके बच्चों के लिए कक्षाएं, आपके बच्चों के लिए कक्षाएं
+                </p>
+              </div>
+              <div class="card-footer bg-transparent py-4 px-5">
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Age of Kids</strong>
+                  </div>
+                  <div class="col-6 py-1">16 - 18 साल</div>
                 </div>
-                <div class="col-lg-4 mb-2">
-                    <div class="card border-0 bg-light shadow-sm pb-2">
-                        <img class="card-img-top mb-2" src="img/class-2.jpg" alt="">
-                        <div class="card-body text-center">
-                            <h4 class="card-title">कक्षा 10-12</h4>
-                            <p class="card-text">आपके बच्चों के लिए कक्षाएं, आपके बच्चों के लिए कक्षाएं</p>
-                        </div>
-                        <div class="card-footer bg-transparent py-4 px-5">
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right"><strong>Age of Kids</strong></div>
-                                <div class="col-6 py-1">16 - 18 साल</div>
-                            </div>
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right"><strong>Total Seats</strong></div>
-                                <div class="col-6 py-1">40 सीटों</div>
-                            </div>
-                            <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right"><strong>Class Time</strong></div>
-                                <div class="col-6 py-1">08:00 - 10:00</div>
-                            </div>
-                            <!-- <div class="row">
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Total Seats</strong>
+                  </div>
+                  <div class="col-6 py-1">40 सीटों</div>
+                </div>
+                <div class="row border-bottom">
+                  <div class="col-6 py-1 text-right border-right">
+                    <strong>Class Time</strong>
+                  </div>
+                  <div class="col-6 py-1">08:00 - 10:00</div>
+                </div> -->
+                <!-- <div class="row">
                                 <div class="col-6 py-1 text-right border-right"><strong>Tution Fee</strong></div>
                                 <div class="col-6 py-1">$290 / Month</div>
                             </div> -->
-                        </div>
-                        <!-- <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a> -->
-                    </div>
-                </div>
-                <!-- <div class="col-lg-4 mb-5">
+              <!-- </div> -->
+              <!-- <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a> -->
+            <!-- </div> -->
+          <!-- </div> -->
+          <!-- <div class="col-lg-4 mb-5">
                     <div class="card border-0 bg-light shadow-sm pb-2">
                         <img class="card-img-top mb-2" src="img/class-3.jpg" alt="">
                         <div class="card-body text-center">
@@ -299,80 +610,129 @@
                         <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
                     </div>
                 </div> -->
-            </div>
-        </div>
-    </div>
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
     <!-- Class End -->
 
-
     <!-- Team Start -->
-    
+
     <!-- Team End -->
     <!-- about us 2 start -->
     <div class="container-fluid py-5 mt-5">
-        <p class="text-black mb-4 mt-5">about us mirror, addtional content here</p>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <p class="section-title pr-5"><span class="pr-2">हमारे बारे में जानें</span></p>
-                    <h1 class="mb-4">आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल</h1>
-                    <p>आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल. आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल, आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल,
-                        आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल. आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल. आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल</p>
-                    <div class="row pt-2 pb-4">
-                        <div class="col-6 col-md-4">
-                            <img class="img-fluid rounded" src="img/IMG_20220628_124455.jpg" style="height: 8vw;" alt="">
-                        </div>
-                        <div class="col-6 col-md-8">
-                            <ul class="list-inline m-0">
-                                <li class="py-2 border-top border-bottom"><i class="fa fa-check text-primary mr-3"></i>आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल</li>
-                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल</li>
-                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- <a href="" class="btn btn-primary mt-2 py-2 px-4">Learn More</a> -->
-                </div>
-                <div class="col-lg-5">
-                    <img class="img-fluid rounded mb-5 mb-lg-4" style="height: 35vw; width: 25vw;" src="img/IMG_20221113_112102.jpg" alt="">
-                </div>
-                
+      <!-- <p class="text-black mb-4 mt-5">
+        about us mirror, addtional content here
+      </p> -->
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <p class="section-title pr-5">
+              <!-- <span class="pr-2">हमारे बारे में जानें</span> -->
+            </p>
+            <!-- <h1 class="mb-4">आपके बच्चों के लिए सर्वश्रेष्ठ स्कूल</h1> -->
+            <p style="font-family: KrutiDev; font-size: larger;">
+                lsaV tkslQ laLFkk ds LakLFkkid Qknj thu ih;j esMk,y dk tUe 6
+                October, 1610 esa gqvkA 1637 esa mudk iksjksfgrkbZ laLdkj gqvk rc
+                mUgksu ns[kk fd dqN efgyk,a ifo= Hkkouk ls Hkjh gqbZ lsok djrh gSA
+                rc mUgksus mu efgykvks dks ,df=r fd;k rFkk 1644 esa fo’ki gsujh ds
+                eksik dks bldh tkudkjh nhA 15 October 1850 esa fojki us flLVj vkWQ
+                lsaV tkslQ dh LFkiuk dhA <br />lasV tkslQ dks Qzkal ds ,d xkao
+                ’kkecsjh Hkstk x;kA ;g bykdk xjhch vkSj Hkq[kejh ls ijs’kku FkkA
+                Qkal es gks jgh yM+kbZ ds dkj.k lSfudks dh nqnZ’kk vLguh; FkhA
+                mudh ns[kHkky djus okyk dksbZ ugh FkkA ml le; leLr flLVlZ us fnu
+                jkr yksxks dh ns[kHkky dhA lu~ 1800 esa Qknj esMk,y ua ,d
+                Hkfo’;ok.kh dh FkhA fd vki tks FkksMs gS] ,d e/kqeD[kh ds >q.M ds
+                leku iwjs fo’o es QSy tk;saxs rFkk vufxur lsok ds dk;ksZ ls
+                txexkrs jgsxsA vki lnk viuh lknxh rFkk lnxq.kkas tSls& n;k] izse]
+                d:.kk ds dkj.k viuh igpkku lalkj es dk;e j[ksaxhA<br />gekjh “kyk
+                ds izfrd fpUg ¼eksuks½ ij vfHkfy[kr ’kCn ^^lnxq.k gh euq’; dks
+                egku cukrk gSA** bl mfDr dk mn~ns’; gS lsaV tkslsQ dh Nk=kvksa dk
+                thoui;ZUr lnxq.kks dks viukrs gq, vius thou dks Js’B cukuk gSA
+                mudk ije drZO; gSa fd izR;sd ifjfLFkfr es n;kyq fouez]
+                vfHkoknu’khy] lg;ksx] izlUuphRRk] ifjJeh] lfg’.kq vkSj mRlkgh jgsA
+                ;fg xq.k mUgs nqljks dh vis{kk egku cukrs gSSA<br />vaxszth ds S
+                rFkk J o.kZ lar tkslQ ds fy, iz;qDr gSaA lar tkslQ dk tUe fo’okl
+                vkKkdkfjrk] leiZ.k] lkgl] fouez lsokHkko ds fy;s lefiZr Fkk vr%
+                lsaV tkslsQ dh izR;sd Nk=k dks bUgh xq.kks dk vuqlj.k djrs gq,
+                ges’kk ’kkfUr vkSj uezrk iwoZd lsokFkZ rRij jguk gSA<br />izrhd
+                fpUg es vafdr fyyh iq’Ik lar tkslQ dh ’kq)rk dk izrhd gSaA fyyh
+                iq’Ik dh dkseyrk lar tkslQ ds fopkjksa vkSj deksZ dh ’kq)rk dks
+                iznf’kZr djrk gSA lsaV tkslQ dh izR;sd Nk=k dks eulk] okpk deZ.kk
+                vFkkZr~ eu ls ck.kh ls deZ ls ’kq) jguk pkfg,A
+              </p>
+            <div class="row pt-2 pb-4">
+              <!-- <div class="col-6 col-md-4">
+                <img
+                  class="img-fluid rounded"
+                  src="img/IMG_20220628_124455.jpg"
+                  style="height: 8vw"
+                  alt=""
+                />
+              </div> -->
+              <!-- <div class="col-6 col-md-8">
+                <ul class="list-inline m-0">
+                  <li class="py-2 border-top border-bottom">
+                    <i class="fa fa-check text-primary mr-3"></i>आपके बच्चों के
+                    लिए सर्वश्रेष्ठ स्कूल
+                  </li>
+                  <li class="py-2 border-bottom">
+                    <i class="fa fa-check text-primary mr-3"></i>आपके बच्चों के
+                    लिए सर्वश्रेष्ठ स्कूल
+                  </li>
+                  <li class="py-2 border-bottom">
+                    <i class="fa fa-check text-primary mr-3"></i>आपके बच्चों के
+                    लिए सर्वश्रेष्ठ स्कूल
+                  </li>
+                </ul>
+              </div> -->
             </div>
+            <!-- <a href="" class="btn btn-primary mt-2 py-2 px-4">Learn More</a> -->
+          </div>
+          <div class="col-lg-5">
+            <img
+              class="img-fluid rounded mb-5 mb-lg-4"
+              style="height: 35vw; width: 25vw"
+              src="img/IMG_20221113_112102.jpg"
+              alt=""
+            />
+          </div>
         </div>
+      </div>
     </div>
-        
-    <!--about us 2 end -->
 
+    <!--about us 2 end -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
         <div class="row pt-5">
             <div class="col-lg-4 col-md-6 mb-5">
                 <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style="font-size: 40px; line-height: 40px;">
-                    <i class="flaticon-043-teddy-bear"></i>
+                    <!-- <i class="flaticon-043-teddy-bear"></i> -->
+                    <img class="img-fluid" style="height: 4vw;" src="img/logo.png" alt="">
                     <span class="text-white">सेंट जोसेफ स्कूल</span>
                 </a>
-                <p>सेंट जोसेफ हिंदी मीडियम स्कूल, सेंट जोसेफ हिंदी मीडियम स्कूल. सेंट जोसेफ हिंदी मीडियम स्कूल सेंट जोसेफ हिंदी मीडियम स्कूल सेंट जोसेफ हिंदी मीडियम स्कूल सेंट जोसेफ हिंदी मीडियम स्कूल सेंट जोसेफ हिंदी मीडियम स्कूल सेंट जोसेफ हिंदी मीडियम स्कूल</p>
+                <p class="mb-4 font-weight-bold" style="font-family: KrutiDev;">lsaV tkslQ dU;k gk;j lsds.Mjh fo|ky; dk fnO; LoIu gSa fd fo|ky; dks ,sLkh fo|k dk eafnj cukuk tgkW ckfydkvksas dk mUeqDr :Ik ls lokZaxh.k fodkl gks muds vUrfuZfgr xq.k xq:tuks ds Lusfgy Li’kZ ,oa “kkys; ikB;sUrj xfrfof/k;ks ds }kjk eq[kfjr gksdj lalkj es u{k= ds leku peds ;gka mudks ,slk okrkoj.k feys tgka os v/;;u ds lkFk&lkFk pfjf=d] uSfrd] ’kkjhfjd] ckSf/kd] ekufld] vk/;kfRed rFkk usRk`Ro djus dh ’kfDr ds lkFk&LkkFk Hkkjrh; laLdkj ;qDr o`fr dk fodkl dj ifjokj] lekt rFkk ns’k ds fgrksIk;ksxh cu ldsA </p>
                 <div class="d-flex justify-content-start mt-4">
                     <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="https://youtube.com/@st.josephsconventhighersec8802"><i class="fab fa-youtube"></i></a>
+                    <!-- <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
                         style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
                         style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
                     <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a> -->
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">संपर्क में रहो</h3>
+                <!-- <h3 class="text-primary mb-4">संपर्क में रहो</h3>
                 <div class="d-flex">
                     <h4 class="fa fa-map-marker-alt text-primary"></h4>
                     <div class="pl-3">
                         <h5 class="text-white">पता</h5>
                         <p>123 स्ट्रीट, 123 चौक बिलासपुर के पास, भारत</p>
                     </div>
-                </div>
-                <div class="d-flex">
+                </div> -->
+                <!-- <div class="d-flex">
                     <h4 class="fa fa-envelope text-primary"></h4>
                     <div class="pl-3">
                         <h5 class="text-white">ईमेल</h5>
@@ -385,17 +745,17 @@
                         <h5 class="text-white">फ़ोन</h5>
                         <p>+012 345 67890</p>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="col-lg-4 col-md-6 mb-5">
                 <h3 class="text-primary mb-4">त्वरित सम्पक</h3>
                 <div class="d-flex flex-column justify-content-start">
                     <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>होम</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>हमारे बारे में</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>हमारी कक्षाएं</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>हमारे अध्यापक</a>
+                    <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>हमारे बारे में</a>
+                    <!-- <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>हमारी कक्षाएं</a> -->
+                    <a class="text-white mb-2" href="team.html"><i class="fa fa-angle-right mr-2"></i>हमारे अध्यापक</a>
                     <!-- <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Blog</a> -->
-                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>संपर्क करें</a>
+                    <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>संपर्क करें</a>
                 </div>
             </div>
             <!-- <div class="col-lg-3 col-md-6 mb-5">
@@ -418,16 +778,16 @@
             <p class="m-0 text-center text-white">
                 &copy; <a class="text-primary font-weight-bold" href="#">सेंट जोसेफ हिंदी मीडियम स्कूल</a>. All Rights Reserved. Designed
                 by
-                <a class="text-primary font-weight-bold" href="https://kaffeeemedia.com">kaffee media</a>
+                <a class="text-primary font-weight-bold" href="https://kaffeeemedia.com" target="_blank">kaffee media</a>
             </p>
         </div>
     </div>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
+    <a href="#" class="btn btn-primary p-3 back-to-top"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -443,6 +803,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>

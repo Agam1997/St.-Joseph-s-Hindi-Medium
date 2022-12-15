@@ -46,22 +46,22 @@ $bgr-color: #333; */
 }
 @keyframes example{
   0%{
-    background-image: url(../img/IMG_20221123_084120.jpg);
-    opacity: 0.5;
+    background-image: url(../img/IMG_20221123_084120_2.jpg);
+    /* opacity: 0.5; */
   }
   25%{
-    background-image: url(../img/IMG_20221123_084120new.jpg);
+    background-image: url(../img/IMG_20220628_121847_2.jpg);
   }
   50%{
-    background-image: url(../img/IMG_20221123_084120.jpg);
-    opacity: 0.5;
+    background-image: url(../img/IMG_20220628_124455_3.jpg);
+    /* opacity: 0.5; */
   }
   75%{
-    background-image: url(../img/IMG_20220628_120916.jpg);
-    opacity: 0.5;
+    background-image: url(../img/IMG_20220628_120916_2.jpg);
+    /* opacity: 0.5; */
   }
   100%{
-    background-image: url(../img/IMG_20220628_121847.jpg);
+    background-image: url(../img/IMG_20221123_084120_2.jpg);
   }
 }
 .shadow {
