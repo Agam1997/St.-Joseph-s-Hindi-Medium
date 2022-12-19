@@ -40,9 +40,10 @@
 $text-color: rgba(255, 255, 255, 0.3);
 $bgr-color: #333; */
 #box {
-  animation-name: example;
+  /* animation-name: example;
   animation-duration: 10s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
+  background-image: url(../img/IMG_20220628_121847_2.jpg);
 }
 @keyframes example{
   0%{
