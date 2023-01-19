@@ -1,238 +1,592 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>सेंट जोसेफ हिंदी मीडियम स्कूल</title>
     <style type="text/css">
-        @font-face {
-          font-family: KrutiDev;
-          src: url(fonts/Krutidev/k010.TTF);
-        }
-        /*Download Zip file for KrutiDev woff font from internet, Unzip it, Paste 
+      @font-face {
+        font-family: KrutiDev;
+        src: url(fonts/Krutidev/k010.TTF);
+      }
+      /*Download Zip file for KrutiDev woff font from internet, Unzip it, Paste 
             the folder in your website folder. I have taken k010*/
-      </style>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    </style>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free HTML Templates" name="keywords" />
+    <meta content="Free HTML Templates" name="description" />
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/favicon.ico" rel="icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Flaticon Font -->
-    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <!-- Navbar Start -->
     <div class="container-fluid bg-light position-relative shadow">
-        <div class="text-center" style="padding-top: 2vw">
-          <a
-            href="index.html"
-            class="navbar-brand font-weight-bold text-secondary"
-            style="font-size: 50px"
-          >
-            <!-- <img class="flaticon-043-teddy-bear"></i> -->
-            <img
-              class="img-fluid"
-              style="height: 8vw"
-              src="img/logo.png"
-              alt=""
-            />
-            <span class="ml-4 shine glow-shadow" style="color: #330000" id="glow">
-              सेंट जोसेफ कॉन्वेंट हिंदी माध्यम उच्च माध्यमिक विद्यालय
-            </span>
-          </a>
-        </div>
-  
-        <nav
-          class="navbar navbar-expand-lg navbar-light py-3 py-lg-0 px-0 px-lg-0"
+      <div class="text-center" style="padding-top: 2vw">
+        <a
+          href="index.html"
+          class="navbar-brand navbar font-weight-bold text-secondary"
+          style="align-items: center"
         >
-          <button
-            type="button"
-            class="navbar-toggler"
-            data-toggle="collapse"
-            data-target="#navbarCollapse"
+          <!-- <img class="flaticon-043-teddy-bear"></i> -->
+          <img
+            class="img-fluid logo-class"
+            src="img/logo_no_background.png"
+            alt=""
+          />
+          <span
+            class="ml-4 shine glow-shadow heading"
+            style="color: #330000"
+            id="glow"
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-between"
-            id="navbarCollapse"
-            style="background-color: beige; height: 3.5vw"
-          >
-            <div
-              class="navbar-nav font-weight-bold mx-auto py-0"
-              style="
-                font-size: 1.2rem;
-                justify-content: space-between;
-                width: 80%;
-              "
-            >
-              <a href="index.html" class="nav-item nav-link">होम</a>
-              <a href="about.html" class="nav-item nav-link">हमारे बारे में</a>
-              <!-- <a href="class.html" class="nav-item nav-link">कक्षाएं</a> -->
-              <a href="team.html" class="nav-item nav-link">हमारे अध्यापक</a>
-              <a href="gallery.html" class="nav-item nav-link active">गेलरी</a>
-              <!-- <div class="nav-item dropdown">
-                          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                          <div class="dropdown-menu rounded-0 m-0">
-                              <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                              <a href="single.html" class="dropdown-item">Blog Detail</a>
-                          </div>
-                      </div> -->
-              <a href="contact.html" class="nav-item nav-link">संपर्क करें</a>
-            </div>
-            <!-- <a href="" class="btn btn-primary px-4">Join Class</a> -->
-          </div>
-        </nav>
+            सेंट जोसेफ कॉन्वेंट हिंदी माध्यम उच्च माध्यमिक विद्यालय
+          </span>
+        </a>
       </div>
+
+      <nav
+        class="navbar navbar-expand-lg navbar-light py-sm-3 py-lg-0 px-0 px-lg-0"
+      >
+        <button
+          class="navbar-toggler ml-auto custom-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-bars" style="color: #fff; font-size: 28px"></i>
+        </button>
+
+        <!-- <button type="button" class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon "></span>
+          </button> -->
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarCollapse"
+          style="background-color: beige; height: 3.5vw"
+        >
+          <div
+            class="navbar-nav font-weight-bold mx-auto py-0"
+            style="
+              font-size: 1.2rem;
+              justify-content: space-between;
+              width: 80%;
+            "
+          >
+            <a href="index.html" class="nav-item nav-link">होम</a>
+            <a href="about.html" class="nav-item nav-link">हमारे बारे में</a>
+            <!-- <a href="class.html" class="nav-item nav-link">कक्षाएं</a> -->
+            <a href="team.html" class="nav-item nav-link">हमारे अध्यापक</a>
+            <a href="gallery.html" class="nav-item nav-link active">गेलरी</a>
+            <!-- <div class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                      <div class="dropdown-menu rounded-0 m-0">
+                          <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                          <a href="single.html" class="dropdown-item">Blog Detail</a>
+                      </div>
+                  </div> -->
+            <a href="contact.html" class="nav-item nav-link">संपर्क करें</a>
+          </div>
+          <!-- <a href="" class="btn btn-primary px-4">Join Class</a> -->
+        </div>
+      </nav>
+    </div>
     <!-- Navbar End -->
 
-
     <!-- Header Start -->
-    <div class="container-fluid bg-primary mb-5" style="
-    background: rgb(4, 0, 75);
-    background: radial-gradient(
-      circle,
-      rgba(4, 0, 75, 1) 0%,
-      rgba(144, 33, 132, 1) 51%,
-      rgba(4, 0, 75, 1) 100%
-    );
-  ">
-        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-            <h3 class="display-3 font-weight-bold text-white">गेलरी</h3>
-            <div class="d-inline-flex text-white">
-                <p class="m-0"><a class="text-white" href="">होम</a></p>
-                <p class="m-0 px-2">/</p>
-                <p class="m-0">गेलरी</p>
-            </div>
+    <div
+      class="container-fluid bg-primary mb-5"
+      style="
+        background: rgb(4, 0, 75);
+        background: radial-gradient(
+          circle,
+          rgba(4, 0, 75, 1) 0%,
+          rgba(144, 33, 132, 1) 51%,
+          rgba(4, 0, 75, 1) 100%
+        );
+      "
+    >
+      <div
+        class="d-flex flex-column align-items-center justify-content-center"
+        style="min-height: 400px"
+      >
+        <h3 class="display-3 font-weight-bold text-white">गेलरी</h3>
+        <div class="d-inline-flex text-white">
+          <p class="m-0"><a class="text-white" href="">होम</a></p>
+          <p class="m-0 px-2">/</p>
+          <p class="m-0">गेलरी</p>
         </div>
+      </div>
     </div>
     <!-- Header End -->
 
-
     <!-- Gallery Start -->
-    <div class="container-fluid pt-5 pb-3">
-        <div class="container">
-            <div class="text-center pb-2">
-                <p class="section-title px-5"><span class="px-2">हमारी गैलरी</span></p>
-                <h1 class="mb-4">हमारे बच्चों की स्कूल गैलरी</h1>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center mb-2">
-                    <ul class="list-inline mb-4" id="portfolio-flters">
-                        <li class="btn btn-outline-primary m-1 active"  data-filter="*">सभी</li>
-                        <li class="btn btn-outline-primary m-1" data-filter=".first">खेल</li>
-                        <li class="btn btn-outline-primary m-1" data-filter=".second">चित्रकला</li>
-                        <li class="btn btn-outline-primary m-1" data-filter=".third">पढ़ना</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100 h-100" src="img/Archive/IMG_4449.JPG" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/Archive/IMG_4449.JPG" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100 h-50" src="img/Archive/IMG_4450.JPG" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/Archive/IMG_4450.JPG" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100 h-50" src="img//Archive/IMG_4451.JPG" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img//Archive/IMG_4451.JPG" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/Archive/IMG_4452.JPG" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/Archive/IMG_4452.JPG" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/Archive/IMG_4453.JPG" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/Archive/IMG_4453.JPG" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/Archive/IMG_4454.JPG" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/Archive/IMG_4454.JPG" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- <div class="text-center pb-2"> -->
+        <!-- <p class="section-title px-5">
+          <span class="px-2">हमारी गैलरी</span>
+        </p> -->
+        <!-- <h1 class="mb-4">हमारी गैलरी</h1>
+      </div> -->
+    <!-- <div class="container-fluid pt-5 pb-3">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-12 text-center mb-2">
+            <ul class="list-inline mb-4" id="portfolio-flters">
+              <li class="btn btn-outline-primary m-1 active" data-filter="*">
+                सभी
+              </li>
+              <li class="btn btn-outline-primary m-1" data-filter=".first">
+                खेल
+              </li>
+              <li class="btn btn-outline-primary m-1" data-filter=".second">
+                चित्रकला
+              </li>
+              <li class="btn btn-outline-primary m-1" data-filter=".third">
+                पढ़ना
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid w-100 h-100"
+                src="img/Archive/IMG_4449.JPG"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/Archive/IMG_4449.JPG" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid w-100 h-50"
+                src="img/Archive/IMG_4450.JPG"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/Archive/IMG_4450.JPG" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid w-100 h-50"
+                src="img//Archive/IMG_4451.JPG"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img//Archive/IMG_4451.JPG" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid w-100"
+                src="img/Archive/IMG_4452.JPG"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/Archive/IMG_4452.JPG" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid w-100"
+                src="img/Archive/IMG_4453.JPG"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/Archive/IMG_4453.JPG" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+            <div class="position-relative overflow-hidden mb-2">
+              <img
+                class="img-fluid w-100"
+                src="img/Archive/IMG_4454.JPG"
+                alt=""
+              />
+              <div
+                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
+              >
+                <a href="img/Archive/IMG_4454.JPG" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
     <!-- Gallery End -->
+    <div class="container mt-5">
+        <div class="text-center pb-2">
+            <p class="section-title px-5">
+              <span class="px-2">हमारा स्कूल</span>
+            </p>
+            <!-- <h1 class="mb-4" style="font-family: KrutiDev; font-size: xx-large">
+              izpk;Z dh dye ls
+            </h1> -->
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img src="img/carousel/School/IMG_20221123_083913.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-6">
+                <img src="img/carousel/School/IMG_20221123_083918.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-6 mt-5">
+                <img src="img/carousel/School/DSC_0005.JPG" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-6 mt-5">
+                <img src="img/carousel/School/DSC_0008.JPG" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-6 mt-5">
+                <img src="img/carousel/School/IMG_20221123_084118.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-6 mt-5">
+                <img src="img/carousel/School/IMG_20221123_084120.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-12 mt-5">
+                <img src="img/carousel/School/IMG_20221123_090154.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+          </div>
+    </div>
 
+    <div class="container mt-5">
+        <div class="text-center pb-2">
+            <p class="section-title px-5">
+              <span class="px-2">सरस्वती साइकिल योजना</span>
+            </p>
+            <!-- <h1 class="mb-4" style="font-family: KrutiDev; font-size: xx-large">
+              izpk;Z dh dye ls
+            </h1> -->
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img src="img/carousel/cycle/IMG_20220628_121847.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-6">
+                <img src="img/carousel/cycle/IMG_20220628_124455.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+          </div>
+    </div>
+    <div class="container mt-5">
+        <div class="text-center pb-2">
+            <p class="section-title px-5">
+              <span class="px-2">मध्यान भोजन</span>
+            </p>
+            <!-- <h1 class="mb-4" style="font-family: KrutiDev; font-size: xx-large">
+              izpk;Z dh dye ls
+            </h1> -->
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img src="img/carousel/midday/1672679938167.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-6">
+                <img src="img/carousel/midday/1672679938171.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-6 mt-5">
+                <img src="img/carousel/midday/1672679938177.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-6 mt-5">
+                <img src="img/carousel/midday/1672679938182.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-12 mt-5">
+                <img src="img/carousel/midday/1672679938189.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+          </div>
+    </div>
+    <div class="container mt-5">
+        <div class="text-center pb-2">
+            <p class="section-title px-5">
+              <span class="px-2">शाला प्रवेशोत्सव, एनएसएस और गर्ल स्काउट्स</span>
+            </p>
+            <!-- <h1 class="mb-4" style="font-family: KrutiDev; font-size: xx-large">
+              izpk;Z dh dye ls
+            </h1> -->
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img src="img/carousel/shala_pro/IMG_20220701_110558.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-6">
+                <img src="img/carousel/shala_pro/nss.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-12 mt-5">
+                <img src="img/carousel/shala_pro/scouts.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <!-- <div class="col-lg-6 mt-5">
+                <img src="img/carousel/School/DSC_0008.JPG" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-6 mt-5">
+                <img src="img/carousel/School/IMG_20221123_084118.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-6 mt-5">
+                <img src="img/carousel/School/IMG_20221123_084120.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-12 mt-5">
+                <img src="img/carousel/School/IMG_20221123_090154.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div> -->
+          </div>
+    </div>
+    <div class="container mt-5">
+        <div class="text-center pb-2">
+            <p class="section-title px-5">
+              <span class="px-2">10वीं के टॉपर के परिणाम</span>
+            </p>
+            <!-- <h1 class="mb-4" style="font-family: KrutiDev; font-size: xx-large">
+              izpk;Z dh dye ls
+            </h1> -->
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img src="img/carousel/results/IMG-20221113-WA0002.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+                <p class="text-center">Niyati Dewangan 95.3%</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/carousel/results/IMG-20221113-WA0004.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+                <p class="text-center">Hastika Koshale 93.5%</p>
+            </div>
+            <!-- <div class="col-lg-6 mt-5">
+                <img src="img/carousel/results/IMG_20220713_094033.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div> -->
+            <!-- <div class="col-lg-6 mt-5">
+                <img src="img/carousel/midday/1672679938182.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div> -->
+            <!-- <div class="col-lg-12 mt-5">
+                <img src="img/carousel/results/IMG_20220713_094033.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+                <p class="text-center">Arsala Ansari 90.6%</p>
+            </div> -->
+          </div>
+    </div>
+    <div class="container mt-5">
+      <div class="text-center pb-2">
+          <p class="section-title px-5">
+            <span class="px-2">12वीं के टॉपर के परिणाम</span>
+          </p>
+          <!-- <h1 class="mb-4" style="font-family: KrutiDev; font-size: xx-large">
+            izpk;Z dh dye ls
+          </h1> -->
+        </div>
+        <div class="row align-items-center">
+          <!-- <div class="col-lg-6">
+              <img src="img/carousel/results/IMG-20221113-WA0002.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+              <p class="text-center">Niyati Dewangan 95.3%</p>
+          </div>
+          <div class="col-lg-6">
+              <img src="img/carousel/results/IMG-20221113-WA0004.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+              <p class="text-center">Hastika Koshale 93.5%</p>
+          </div> -->
+          <!-- <div class="col-lg-6 mt-5">
+              <img src="img/carousel/results/IMG_20220713_094033.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+          </div> -->
+          <!-- <div class="col-lg-6 mt-5">
+              <img src="img/carousel/midday/1672679938182.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+          </div> -->
+          <div class="col-lg-12 mt-5">
+              <img src="img/carousel/results/IMG_20220713_094033.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+              <p class="text-center">Arsala Ansari 90.6%</p>
+          </div>
+        </div>
+  </div>
+    <div class="container mt-5">
+        <div class="text-center pb-2">
+            <p class="section-title px-5">
+              <span class="px-2">शपत ग्रहण समारोह</span>
+            </p>
+            <!-- <h1 class="mb-4" style="font-family: KrutiDev; font-size: xx-large">
+              izpk;Z dh dye ls
+            </h1> -->
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img src="img/carousel/shapat_grahan/IMG_20220713_092601.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+            <div class="col-lg-6">
+                <img src="img/carousel/shapat_grahan/IMG_20220713_093420.jpg" alt="First slide" class="img-fluid rounded mb-5 mb-lg-0 mx-auto d-block">
+            </div>
+          </div>
+    </div>
+      <!-- <div class="container">
+        <div class="text-center pb-2">
+            <p class="section-title px-5">
+              <span class="px-2">सरस्वती साइकिल योजना</span>
+            </p>
+            <h1 class="mb-4" style="font-family: KrutiDev; font-size: xx-large">
+              izpk;Z dh dye ls
+            </h1>
+          </div>
+        <div class="row">
+          <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-none d-lg-block">
+                  <div class="slide-box">
+                    <img src="img/carousel/cycle/" alt="First slide">
+                    <img src="img/carousel/cycle/" alt="First slide">
+                    <img src="https://picsum.photos/285/200/?image=2&random" alt="First slide">
+                    <img src="https://picsum.photos/285/200/?image=3&random" alt="First slide">
+                  </div>
+                </div>
+                <div class="d-none d-md-block d-lg-none">
+                  <div class="slide-box">
+                    <img src="https://picsum.photos/240/200/?image=0&random" alt="First slide">
+                    <img src="https://picsum.photos/240/200/?image=1&random" alt="First slide">
+                    <img src="https://picsum.photos/240/200/?image=2&random" alt="First slide">
+                  </div>
+                </div>
+                <div class="d-none d-sm-block d-md-none">
+                  <div class="slide-box">
+                    <img src="https://picsum.photos/270/200/?image=0&random" alt="First slide">
+                    <img src="https://picsum.photos/270/200/?image=1&random" alt="First slide">
+                  </div>
+                </div>
+                <div class="d-block d-sm-none">
+                  <img class="d-block w-100" src="https://picsum.photos/600/400/?image=0&random" alt="First slide">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-none d-lg-block">
+                  <div class="slide-box">
+                    <img src="https://picsum.photos/285/200/?image=4&random" alt="Second slide">
+                    <img src="https://picsum.photos/285/200/?image=5&random" alt="Second slide">
+                    <img src="https://picsum.photos/285/200/?image=6&random" alt="Second slide">
+                    <img src="https://picsum.photos/285/200/?image=7&random" alt="Second slide">
+                  </div>
+                </div>
+                <div class="d-none d-md-block d-lg-none">
+                  <div class="slide-box">
+                    <img src="https://picsum.photos/240/200/?image=3&random" alt="Second slide">
+                    <img src="https://picsum.photos/240/200/?image=4&random" alt="Second slide">
+                    <img src="https://picsum.photos/240/200/?image=5&random" alt="Second slide">
+                  </div>
+                </div>
+                <div class="d-none d-sm-block d-md-none">
+                  <div class="slide-box">
+                    <img src="https://picsum.photos/270/200/?image=2&random" alt="Second slide">
+                    <img src="https://picsum.photos/270/200/?image=3&random" alt="Second slide">
+                  </div>
+                </div>
+                <div class="d-block d-sm-none">
+                  <img class="d-block w-100" src="https://picsum.photos/600/400/?image=1&random" alt="Second slide">
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div> -->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
-        <div class="row pt-5">
-            <div class="col-lg-4 col-md-6 mb-5">
-                <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style="font-size: 40px; line-height: 40px;">
-                    <!-- <i class="flaticon-043-teddy-bear"></i> -->
-                    <img class="img-fluid" style="height: 4vw;" src="img/logo.png" alt="">
-                    <span class="text-white">सेंट जोसेफ स्कूल</span>
-                </a>
-                <p class="mb-4 font-weight-bold" style="font-family: KrutiDev;">lsaV tkslQ dU;k gk;j lsds.Mjh fo|ky; dk fnO; LoIu gSa fd fo|ky; dks ,sLkh fo|k dk eafnj cukuk tgkW ckfydkvksas dk mUeqDr :Ik ls lokZaxh.k fodkl gks muds vUrfuZfgr xq.k xq:tuks ds Lusfgy Li’kZ ,oa “kkys; ikB;sUrj xfrfof/k;ks ds }kjk eq[kfjr gksdj lalkj es u{k= ds leku peds ;gka mudks ,slk okrkoj.k feys tgka os v/;;u ds lkFk&lkFk pfjf=d] uSfrd] ’kkjhfjd] ckSf/kd] ekufld] vk/;kfRed rFkk usRk`Ro djus dh ’kfDr ds lkFk&LkkFk Hkkjrh; laLdkj ;qDr o`fr dk fodkl dj ifjokj] lekt rFkk ns’k ds fgrksIk;ksxh cu ldsA </p>
-                <div class="d-flex justify-content-start mt-4">
-                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-                        style="width: 38px; height: 38px;" href="https://youtube.com/@st.josephsconventhighersec8802"><i class="fab fa-youtube"></i></a>
-                    <!-- <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+    <div
+      class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5"
+    >
+      <div class="row pt-5">
+        <div class="col-lg-4 col-md-6 mb-5">
+          <a
+            href=""
+            class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0"
+            style="font-size: 40px; line-height: 40px"
+          >
+            <!-- <i class="flaticon-043-teddy-bear"></i> -->
+            <img class="image-footer" src="img/logo_no_background.png" alt="" />
+            <span class="text-white">सेंट जोसेफ स्कूल</span>
+          </a>
+          <p class="mb-4 font-weight-bold" style="font-family: KrutiDev">
+            lsaV tkslQ dU;k gk;j lsds.Mjh fo|ky; dk fnO; LoIu gSa fd fo|ky; dks
+            ,sLkh fo|k dk eafnj cukuk tgkW ckfydkvksas dk mUeqDr :Ik ls
+            lokZaxh.k fodkl gks muds vUrfuZfgr xq.k xq:tuks ds Lusfgy Li’kZ ,oa
+            “kkys; ikB;sUrj xfrfof/k;ks ds }kjk eq[kfjr gksdj lalkj es u{k= ds
+            leku peds ;gka mudks ,slk okrkoj.k feys tgka os v/;;u ds lkFk&lkFk
+            pfjf=d] uSfrd] ’kkjhfjd] ckSf/kd] ekufld] vk/;kfRed rFkk usRk`Ro
+            djus dh ’kfDr ds lkFk&LkkFk Hkkjrh; laLdkj ;qDr o`fr dk fodkl dj
+            ifjokj] lekt rFkk ns’k ds fgrksIk;ksxh cu ldsA
+          </p>
+          <div class="d-flex justify-content-start mt-4">
+            <a
+              class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+              style="width: 38px; height: 38px"
+              href="https://youtube.com/@st.josephsconventhighersec8802"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <!-- <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
                         style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
                         style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
                     <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
                         style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a> -->
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-5">
-                <!-- <h3 class="text-primary mb-4">संपर्क में रहो</h3>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5">
+          <!-- <h3 class="text-primary mb-4">संपर्क में रहो</h3>
                 <div class="d-flex">
                     <h4 class="fa fa-map-marker-alt text-primary"></h4>
                     <div class="pl-3">
@@ -240,7 +594,7 @@
                         <p>123 स्ट्रीट, 123 चौक बिलासपुर के पास, भारत</p>
                     </div>
                 </div> -->
-                <!-- <div class="d-flex">
+          <!-- <div class="d-flex">
                     <h4 class="fa fa-envelope text-primary"></h4>
                     <div class="pl-3">
                         <h5 class="text-white">ईमेल</h5>
@@ -254,19 +608,27 @@
                         <p>+012 345 67890</p>
                     </div>
                 </div> -->
-            </div>
-            <div class="col-lg-4 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">त्वरित सम्पक</h3>
-                <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>होम</a>
-                    <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>हमारे बारे में</a>
-                    <!-- <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>हमारी कक्षाएं</a> -->
-                    <a class="text-white mb-2" href="team.html"><i class="fa fa-angle-right mr-2"></i>हमारे अध्यापक</a>
-                    <!-- <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Blog</a> -->
-                    <a class="text-white" href="contact.html"><i class="fa fa-angle-right mr-2"></i>संपर्क करें</a>
-                </div>
-            </div>
-            <!-- <div class="col-lg-3 col-md-6 mb-5">
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5">
+          <h3 class="text-primary mb-4">त्वरित सम्पक</h3>
+          <div class="d-flex flex-column justify-content-start">
+            <a class="text-white mb-2" href="#"
+              ><i class="fa fa-angle-right mr-2"></i>होम</a
+            >
+            <a class="text-white mb-2" href="about.html"
+              ><i class="fa fa-angle-right mr-2"></i>हमारे बारे में</a
+            >
+            <!-- <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>हमारी कक्षाएं</a> -->
+            <a class="text-white mb-2" href="team.html"
+              ><i class="fa fa-angle-right mr-2"></i>हमारे अध्यापक</a
+            >
+            <!-- <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Blog</a> -->
+            <a class="text-white" href="contact.html"
+              ><i class="fa fa-angle-right mr-2"></i>संपर्क करें</a
+            >
+          </div>
+        </div>
+        <!-- <div class="col-lg-3 col-md-6 mb-5">
                 <h3 class="text-primary mb-4">Newsletter</h3>
                 <form action="">
                     <div class="form-group">
@@ -281,21 +643,31 @@
                     </div>
                 </form>
             </div> -->
-        </div>
-        <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, .2);;">
-            <p class="m-0 text-center text-white">
-                &copy; <a class="text-primary font-weight-bold" href="#">सेंट जोसेफ हिंदी मीडियम स्कूल</a>. All Rights Reserved. Designed
-                by
-                <a class="text-primary font-weight-bold" href="https://kaffeeemedia.com" target="_blank">kaffee media</a>
-            </p>
-        </div>
+      </div>
+      <div
+        class="container-fluid pt-5"
+        style="border-top: 1px solid rgba(23, 162, 184, 0.2)"
+      >
+        <p class="m-0 text-center text-white">
+          &copy;
+          <a class="text-primary font-weight-bold" href="#"
+            >सेंट जोसेफ हिंदी मीडियम स्कूल</a
+          >. All Rights Reserved. Designed by
+          <a
+            class="text-primary font-weight-bold"
+            href="https://kaffeeemedia.com"
+            target="_blank"
+            >kaffee media</a
+          >
+        </p>
+      </div>
     </div>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
+    <a href="#" class="btn btn-primary p-3 back-to-top"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -311,6 +683,8 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>

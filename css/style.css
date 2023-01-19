@@ -43,7 +43,7 @@ $bgr-color: #333; */
   /* animation-name: example;
   animation-duration: 10s;
   animation-iteration-count: infinite; */
-  background-image: url(../img/IMG_20220628_121847_2.jpg);
+  background-image: url(../img/opa_home.png);
 }
 @keyframes example{
   0%{
@@ -72,12 +72,62 @@ padding: 0 !important;
 }
 .logo-class{
   height: 8vw !important;
+  margin-bottom: 1.5%;
 }
 
 @media (max-width: 768px) {
   .logo-class {
     height: 15vw !important;
+    margin-bottom: 1.5% !important;
   }
+  .joseph {
+    width: 77.5%!important;
+    margin-left: auto;
+  }
+}
+
+.joseph {
+  width: 77.5%; height: 28vw
+}
+
+.carousel {
+width: 100%;
+}
+
+.slide-box {
+display: flex;
+justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+.slide-box img {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.slide-box img {
+  -ms-flex: 0 0 33.3333%;
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+}
+}
+
+@media (min-width: 992px)
+{
+.slide-box img {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+}
+
+.carousel-caption {
+background-color: rgba(0, 0, 0, 0.5);
+padding: 20px;
+border-radius: .5rem;
 }
 
 .shine {
